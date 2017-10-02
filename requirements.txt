@@ -1,2 +1,4 @@
 Flask
-azure
+azure-storage
+azure-common
+azure-nspkg
