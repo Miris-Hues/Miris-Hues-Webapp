@@ -56,13 +56,7 @@ def azureStorageList():
 
 @app.route('/images')
 def imageView():
-    return render_template(
-        'about.html',
-        title='About',
-        year=datetime.now().year,
-        message='Your application description page.'
-    )
-    # return redirect(azureStorageList())
+    return redirect(azureStorageList())
 
 
 @app.route('/text', methods=['GET'])
