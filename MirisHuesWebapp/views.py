@@ -69,7 +69,7 @@ def cognitiveText():
 
     params = urllib.parse.urlencode({
         # Request parameters
-        'language': 'ko',
+        'language': 'en',
         'detectOrientation ': 'true',
     })
 
